@@ -1,6 +1,6 @@
 ﻿namespace DiscussionBoard.Models
 {
-    public class EntityBase
+    public abstract class EntityBase
     {
         private int Id;
         private bool IsDeleted;
