@@ -1,2 +1,2 @@
-Name: Meghan Winkler
-GitHub Username:mwinkle1
+Name : Meghan Winkler
+GitHub Username : mwinkle1
