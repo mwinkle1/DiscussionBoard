@@ -2,7 +2,10 @@
 {
     public class Forum : EntityBase
     {
-        private string Name;
-        private string Description;
+        public string Name { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
+
+        public ICollection<DiscussionThread> DiscussionThreads { get; set; }
+            = new List<DiscussionThread>();
     }
 }
